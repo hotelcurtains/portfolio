@@ -1,0 +1,106 @@
+/* font settings */
+@import url("https://fonts.googleapis.com/css?family=Inconsolata&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+@font-face {
+  font-family: "Rockwell ";
+  src: url("assets/rockwell.ttf");
+}
+
+@font-face {
+  font-family: "Rockwell Bold";
+  src: url("assets/rockwell-bold.ttf");
+}
+
+body {
+  font: 400 1rem "Source Code Pro";
+  padding: .3125rem 1.5625rem;
+  margin: 0;
+  color: #000;
+  background-attachment: fixed;
+  background-color:hsla(266,32%,67%,1);
+  background-image:
+  radial-gradient(at 6% 6%, hsla(212,45%,60%,1) 0rem, transparent 50%),
+  radial-gradient(at 100% 48%, hsla(231,97%,65%,0.29) 0rem, transparent 50%),
+  radial-gradient(at 25% 26%, hsla(38,94%,74%,1) 0rem, transparent 50%),
+  radial-gradient(at 30% 69%, hsla(332,30%,53%,1) 0rem, transparent 50%),
+  radial-gradient(at 100% 99%, hsla(111,74%,75%,1) 0rem, transparent 50%),
+  radial-gradient(at 83% 68%, hsla(72,39%,69%,1) 0rem, transparent 50%);
+}
+
+h1 {
+  font: 4rem "Rockwell Bold";
+  letter-spacing: .1875rem;
+  margin: .625rem 0rem;
+  background: linear-gradient(140deg, #000 1%, #555 8%, #000 15%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  font: 1.5rem "Rockwell Bold";
+}
+
+h3 {
+  font: 1.125rem "Rockwell";
+}
+
+a {
+  color: #46494C;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: bold;
+}
+
+img {
+  margin: 0rem;
+}
+
+/* image rollover effect */
+
+.img-wrapper {
+  display: inline-table;
+  border: .1875rem ridge #000000;
+  border-radius: .1875rem;
+  margin-bottom: .625rem;
+  font-size: 0;
+}
+
+.img-wrapper:hover .text_wrapper {
+  opacity: .99;
+}
+
+.img-wrapper:hover img {
+  opacity: 0.6;
+}
+
+.text_wrapper {
+  opacity: 0;
+  transition: 0.5s ease;
+  top: 2.6875rem;
+  margin-left: 0rem;
+  margin-top: -18.75rem;
+  width: 36.375rem;
+  height: 18.75rem;
+}
+
+.top {
+  font: 100 2.25rem "Source Code Pro";
+  color: #333;
+  margin: 0rem;
+  padding: 0rem;
+  text-align: center;
+  background-color: #aeb0c7;
+}
+
+.bottom {
+  font: 600 3.75rem "Source Code Pro"; 
+  color: #333;
+  margin: 0rem;
+  padding: 0rem;
+  text-align: center;
+  background-color: #e4e1d0;
+}
