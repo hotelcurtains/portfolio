@@ -16,7 +16,7 @@ The entire site, each and every character that makes up the code, was revealed t
 
 # Where?
 
-This web page can be found at (put the link here when the site goes up.)
+This web page can be found at [(put the link here when the site goes up.)](https://hotelcurtains.github.io/portfolio/)
 
 # How?
 
