@@ -12,13 +12,22 @@
   src: url("assets/rockwell-bold.ttf");
 }
 
+p{
+  width: 75%;
+}
+
+.code{
+  background:#584c68;
+  color:#e4e1d0;
+}
+
 body {
   font: 400 1rem "Source Code Pro";
   padding: .3125rem 1.5625rem;
   margin: 0;
   color: #000;
   background-attachment: fixed;
-  background-color:hsla(266,32%,67%,1);
+  background-color:#a790c6;
   background-image:
   radial-gradient(at 6% 6%, hsla(212,45%,60%,1) 0rem, transparent 50%),
   radial-gradient(at 100% 48%, hsla(231,97%,65%,0.29) 0rem, transparent 50%),
@@ -38,7 +47,7 @@ h1 {
 }
 
 h2 {
-  font: 1.5rem "Rockwell Bold";
+  font: 2rem "Rockwell";
 }
 
 h3 {

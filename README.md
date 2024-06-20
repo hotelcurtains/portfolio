@@ -12,7 +12,7 @@ This project is the culmination of a week-long summer course that took place in 
 
 # Who?
 
-The entire site, each and every character that makes up the code, was revealed to me in a divine vision that an angel sent to me about 45 minutes after I ate a pack of long-expired Slim Jims. This is the same angel who sent me *simplex sigillum veri*.
+The entire site, each and every character that makes up the code, was revealed to me in a divine vision that an angel sent to me about 45 minutes after I ate a pack of long-expired Slim Jims.
 
 # Where?
 
