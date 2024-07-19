@@ -29,12 +29,12 @@ body {
   background-attachment: fixed;
   background-color:#a790c6;
   background-image:
-  radial-gradient(at 6% 6%, hsla(212,45%,60%,1) 0rem, transparent 50%),
-  radial-gradient(at 100% 48%, hsla(231,97%,65%,0.29) 0rem, transparent 50%),
-  radial-gradient(at 25% 26%, hsla(38,94%,74%,1) 0rem, transparent 50%),
-  radial-gradient(at 30% 69%, hsla(332,30%,53%,1) 0rem, transparent 50%),
-  radial-gradient(at 100% 99%, hsla(111,74%,75%,1) 0rem, transparent 50%),
-  radial-gradient(at 83% 68%, hsla(72,39%,69%,1) 0rem, transparent 50%);
+  radial-gradient(at 6% 6%, #6b96c7 0rem, transparent 50%),
+  radial-gradient(at 100% 48%, #4f69fc4a 0rem, transparent 50%),
+  radial-gradient(at 25% 26%, #fbcd7e 0rem, transparent 50%),
+  radial-gradient(at 30% 69%, #ab6385 0rem, transparent 50%),
+  radial-gradient(at 100% 99%, #9eee90 0rem, transparent 50%),
+  radial-gradient(at 83% 68%, #c2cf91 0rem, transparent 50%);
 }
 
 h1 {
@@ -96,13 +96,18 @@ img {
   height: 18.75rem;
 }
 
+.preview {
+  width: 36.375rem;
+  height: 27.25rem;
+}
+
 .top {
   font: 100 2.25rem "Source Code Pro";
   color: #333;
   margin: 0rem;
   padding: 0rem;
   text-align: center;
-  background-color: #aeb0c7;
+  background-color: #a0b1c6;
 }
 
 .bottom {
@@ -111,5 +116,5 @@ img {
   margin: 0rem;
   padding: 0rem;
   text-align: center;
-  background-color: #e4e1d0;
+  background-color: #f7e2bd;
 }
